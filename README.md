@@ -1,6 +1,6 @@
 # Easybank Landing Page
 
-[Easybank Landing Page](cta) web site designed by vanilla Html, Css (with Sass) and Javascript, using [Webpack](https://webpack.js.org/), challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) **Coded by** [Abdel-Rahman](https://github.com/abdelrahman-mh)
+[Easybank Landing Page](https://abdelrahman-mh.github.io/easybank-landing-page/) web site designed by vanilla Html, Css (with Sass) and Javascript, using [Webpack](https://webpack.js.org/), challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) **Coded by** [Abdel-Rahman](https://github.com/abdelrahman-mh)
 
 ## Table of contents
 
@@ -101,4 +101,4 @@ We welcome contributions! If you have suggestions, find bugs, or want to add new
 
 ## Links
 
--  [Website](https://awesome-blog-app.com)
+-  [Website](https://abdelrahman-mh.github.io/easybank-landing-page/)
