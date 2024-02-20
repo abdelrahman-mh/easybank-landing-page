@@ -1,0 +1,80 @@
+.hero {
+   background-color: $veryLightGray;
+   .container {
+      position: relative;
+      padding: 0;
+      padding: {
+         bottom: 88px;
+      }
+
+      @include breakpoint-up(large) {
+         padding-bottom: 0;
+
+         display: flex;
+         justify-content: flex-start;
+         align-items: center;
+         min-height: 656px;
+      }
+   }
+   &__images {
+      transform: translateY(-20%);
+      @include breakpoint-up(medium) {
+         transform: translateY(0);
+         height: 400px;
+      }
+      @include breakpoint-up(large) {
+         position: absolute;
+         height: max-content;
+         width: max-content;
+         padding: 0;
+
+         left: 40%;
+         top: -40%;
+      }
+   }
+
+   &__bg--mobile {
+      width: 100%;
+      @include breakpoint-up(medium) {
+         position: absolute;
+         left: 0;
+         bottom: 0;
+      }
+   }
+
+   &__image {
+      position: absolute;
+      z-index: 100;
+      left: 50%;
+      bottom: -4.26%; // the white space bottom of the img
+      transform: translateX(-50%);
+      width: 90%;
+      @include breakpoint-up(medium) {
+         width: 45%;
+      }
+      @include breakpoint-up(large) {
+         width: auto;
+         transform: translateX(0);
+         left: 14%;
+      }
+   }
+   &__content {
+      margin-top: calc(-20% + 50px);
+      @include breakpoint-up(medium) {
+         margin-top: 50px;
+      }
+      padding: 0 24px; // replaced with container
+      width: 100%;
+      text-align: center;
+
+      @include breakpoint-up(large) {
+         margin-top: 0;
+         max-width: 448px; // include padding 22px on left and right
+         text-align: left;
+      }
+   }
+
+   &__cta {
+      margin-top: 33px;
+   }
+}

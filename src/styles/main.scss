@@ -1,0 +1,14 @@
+@import './variables';
+@import './utils/mixins';
+@import './globals';
+
+// Utils
+@import './utils/typography';
+
+// Components
+@import './component/header';
+@import './component/hero';
+@import './component/articles';
+@import './component/feature';
+@import './component/footer';
+@import './component/burgerIcon';
